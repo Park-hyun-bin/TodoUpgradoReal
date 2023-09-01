@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let userDefaults = UserDefaults.standard
+    var work:[Work]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    
 
 }
 

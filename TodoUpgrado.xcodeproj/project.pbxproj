@@ -16,6 +16,14 @@
 		6B6A939E2A9C372D00DEC77D /* TodoUpgradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A939D2A9C372D00DEC77D /* TodoUpgradoTests.swift */; };
 		6B6A93A82A9C372D00DEC77D /* TodoUpgradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93A72A9C372D00DEC77D /* TodoUpgradoUITests.swift */; };
 		6B6A93AA2A9C372D00DEC77D /* TodoUpgradoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93A92A9C372D00DEC77D /* TodoUpgradoUITestsLaunchTests.swift */; };
+		6B6A93B72A9E5B0200DEC77D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93B62A9E5B0200DEC77D /* DetailViewController.swift */; };
+		6B6A93B92A9E5B4400DEC77D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93B82A9E5B4400DEC77D /* AddViewController.swift */; };
+		6B6A93BB2A9E5BED00DEC77D /* Aleart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93BA2A9E5BED00DEC77D /* Aleart.swift */; };
+		6B6A93BD2A9F30C900DEC77D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93BC2A9F30C900DEC77D /* MainViewController.swift */; };
+		6B6A93C02A9FCA4E00DEC77D /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93BF2A9FCA4E00DEC77D /* list.swift */; };
+		6B6A93C32AA0441700DEC77D /* TabbarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6A93C22AA0441700DEC77D /* TabbarViewController.storyboard */; };
+		6B6A93C52AA0442900DEC77D /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A93C42AA0442900DEC77D /* TabbarViewController.swift */; };
+		6B6A94052AA10A8600DEC77D /* UserdefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A94042AA10A8600DEC77D /* UserdefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		6B6A93A32A9C372D00DEC77D /* TodoUpgradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUpgradoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6A93A72A9C372D00DEC77D /* TodoUpgradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUpgradoUITests.swift; sourceTree = "<group>"; };
 		6B6A93A92A9C372D00DEC77D /* TodoUpgradoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUpgradoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B6A93B62A9E5B0200DEC77D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6B6A93B82A9E5B4400DEC77D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6B6A93BA2A9E5BED00DEC77D /* Aleart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aleart.swift; sourceTree = "<group>"; };
+		6B6A93BC2A9F30C900DEC77D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6B6A93BF2A9FCA4E00DEC77D /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		6B6A93C22AA0441700DEC77D /* TabbarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabbarViewController.storyboard; sourceTree = "<group>"; };
+		6B6A93C42AA0442900DEC77D /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		6B6A94042AA10A8600DEC77D /* UserdefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserdefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,16 @@
 		6B6A93852A9C372D00DEC77D /* TodoUpgrado */ = {
 			isa = PBXGroup;
 			children = (
+				6B6A93C72AA08AEA00DEC77D /* Alert */,
+				6B6A93C62AA0469300DEC77D /* Utill */,
+				6B6A93C12AA043E600DEC77D /* Tabbar */,
+				6B6A93BE2A9FC9FF00DEC77D /* New Group */,
+				6B6A93B82A9E5B4400DEC77D /* AddViewController.swift */,
+				6B6A93B62A9E5B0200DEC77D /* DetailViewController.swift */,
 				6B6A93862A9C372D00DEC77D /* AppDelegate.swift */,
 				6B6A93882A9C372D00DEC77D /* SceneDelegate.swift */,
 				6B6A938A2A9C372D00DEC77D /* ViewController.swift */,
+				6B6A93BC2A9F30C900DEC77D /* MainViewController.swift */,
 				6B6A938C2A9C372D00DEC77D /* Main.storyboard */,
 				6B6A938F2A9C372D00DEC77D /* Assets.xcassets */,
 				6B6A93912A9C372D00DEC77D /* LaunchScreen.storyboard */,
@@ -125,6 +148,39 @@
 				6B6A93A92A9C372D00DEC77D /* TodoUpgradoUITestsLaunchTests.swift */,
 			);
 			path = TodoUpgradoUITests;
+			sourceTree = "<group>";
+		};
+		6B6A93BE2A9FC9FF00DEC77D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6B6A93C12AA043E600DEC77D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6B6A93C22AA0441700DEC77D /* TabbarViewController.storyboard */,
+				6B6A93C42AA0442900DEC77D /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6B6A93C62AA0469300DEC77D /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				6B6A93BF2A9FCA4E00DEC77D /* list.swift */,
+				6B6A94042AA10A8600DEC77D /* UserdefaultsManager.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
+		6B6A93C72AA08AEA00DEC77D /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				6B6A93BA2A9E5BED00DEC77D /* Aleart.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6A93932A9C372D00DEC77D /* LaunchScreen.storyboard in Resources */,
+				6B6A93C32AA0441700DEC77D /* TabbarViewController.storyboard in Resources */,
 				6B6A93902A9C372D00DEC77D /* Assets.xcassets in Resources */,
 				6B6A938E2A9C372D00DEC77D /* Main.storyboard in Resources */,
 			);
@@ -258,9 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6A93BD2A9F30C900DEC77D /* MainViewController.swift in Sources */,
+				6B6A93B92A9E5B4400DEC77D /* AddViewController.swift in Sources */,
 				6B6A938B2A9C372D00DEC77D /* ViewController.swift in Sources */,
+				6B6A93B72A9E5B0200DEC77D /* DetailViewController.swift in Sources */,
 				6B6A93872A9C372D00DEC77D /* AppDelegate.swift in Sources */,
+				6B6A93C02A9FCA4E00DEC77D /* list.swift in Sources */,
+				6B6A93BB2A9E5BED00DEC77D /* Aleart.swift in Sources */,
 				6B6A93892A9C372D00DEC77D /* SceneDelegate.swift in Sources */,
+				6B6A94052AA10A8600DEC77D /* UserdefaultsManager.swift in Sources */,
+				6B6A93C52AA0442900DEC77D /* TabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
